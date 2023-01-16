@@ -1,6 +1,6 @@
 body {
     background: url("../img/vector-restaurant-interior.jpg") no-repeat center center fixed;
-    background-size: cover; 
+    background-size: cover;
 }
 
 .blur {
@@ -22,14 +22,6 @@ body {
     height: 200px;
     width: 100%;
     overflow: hidden;
-    #oncontent{
-        height: 100%;
-        width: 100%;
-    }
-}
-
-#oncontent{
-    height
 }
 
 .center {
@@ -49,7 +41,56 @@ body {
     max-height: 196px;
 }
 
+.oncontent{
+    padding:10%;
+    margin: 0;
+
+    top:0;
+    left:0;
+
+    width: 100%;
+    height: 100%;
+}
+
 /* LOGIN */
+
+/*Nuevo blur*/
+
+.bg-image {
+    /* The image used */
+    background-image: url("../img/vector-restaurant-interior.jpg");
+  
+    /* Add the blur effect */
+    filter: blur(8px);
+    -webkit-filter: blur(13px);
+  
+    /* Full height */
+    height: 100%;
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  } */
+
+/*nuevo blur*/
+
+.background {
+    filter: blur(13px);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+  }
+
+  .foreground {
+    backdrop-filter: blur(13px);
+  }
+
+nav{
+    margin-top: 10%;
+    margin-left: 8.8%;
+    margin-right: 7.85%;
+}
 
 @import "bourbon";
 
@@ -101,3 +142,20 @@ body {
 }
 
 /* LOGIN */
+
+.form-check, .list-group-item, .form-check-input, .form-check-label, .list-group, .list-group-flush{
+    background-color: yellowgreen;
+    padding: 0;
+}
+
+.list-group-item {
+    background-color: yellowgreen !important;
+}
+
+.list-group, .list-group-flush{
+    border-radius: 30px !important;
+}
+
+#boton-pedir{
+    margin-top: 5%;
+}
