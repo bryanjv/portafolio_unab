@@ -33,20 +33,20 @@ body {
     right: 0;
 }
 
-.link{
+.link {
     margin-top: 5%;
 }
 
-.form-signin{
+.form-signin {
     max-height: 196px;
 }
 
-.oncontent{
-    padding:10%;
+.oncontent {
+    padding: 10%;
     margin: 0;
 
-    top:0;
-    left:0;
+    top: 0;
+    left: 0;
 
     width: 100%;
     height: 100%;
@@ -59,20 +59,21 @@ body {
 .bg-image {
     /* The image used */
     background-image: url("../img/vector-restaurant-interior.jpg");
-  
+
     /* Add the blur effect */
     filter: blur(8px);
     -webkit-filter: blur(13px);
-  
+
     /* Full height */
     height: 100%;
-  
+
     /* Center and scale the image nicely */
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-  } */
+}
 
+*/
 /*nuevo blur*/
 
 .background {
@@ -80,13 +81,13 @@ body {
     position: absolute;
     width: 100%;
     height: 100%;
-  }
+}
 
-  .foreground {
+.foreground {
     backdrop-filter: blur(13px);
-  }
+}
 
-nav{
+nav {
     margin-top: 10%;
     margin-left: 8.8%;
     margin-right: 7.85%;
@@ -97,7 +98,7 @@ nav{
 .wrapper {
     /* margin-top: 80px; */
     margin-bottom: 80px;
-    
+
 }
 
 .form-signin {
@@ -144,7 +145,12 @@ nav{
 
 /* LOGIN */
 
-.form-check, .list-group-item, .form-check-input, .form-check-label, .list-group, .list-group-flush{
+.form-check,
+.list-group-item,
+.form-check-input,
+.form-check-label,
+.list-group,
+.list-group-flush {
     background-color: yellowgreen;
     padding: 0;
 }
@@ -153,7 +159,8 @@ nav{
     background-color: yellowgreen !important;
 }
 
-.list-group, .list-group-flush{
+.list-group,
+.list-group-flush {
     border-radius: 30px !important;
     margin-bottom: 5%;
 }
@@ -162,7 +169,7 @@ nav{
     margin-top: 5%;
 } */
 
-#boton-pedir{
+#boton-pedir {
     margin: 20px;
 }
 
@@ -179,9 +186,9 @@ nav{
     transition: all 0.3s ease;
     position: relative;
     display: inline-block;
-    box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
-    7px 7px 20px 0px rgba(0,0,0,.1),
-    4px 4px 5px 0px rgba(0,0,0,.1);
+    box-shadow: inset 2px 2px 2px 0px rgba(255, 255, 255, .5),
+        7px 7px 20px 0px rgba(0, 0, 0, .1),
+        4px 4px 5px 0px rgba(0, 0, 0, .1);
     outline: none;
 }
 
@@ -245,22 +252,23 @@ nav{
     }
 }
 
-footer{
-    background-color:rgba(128,128,128,.1);
-    width:100%;
-    border:black solid 5px;
+footer {
+    background-color: rgba(128, 128, 128, .1);
+    width: 100%;
+    border: black solid 5px;
     text-align: center;
     padding: 1em
 }
 
-.footfoot{
-    background-color: rgba(128,128,128,.1) !important;
+.footfoot {
+    background-color: rgba(128, 128, 128, .1) !important;
 }
 
-#correo, #pass{
+#correo,
+#pass {
     margin-bottom: 2%;
 }
 
-#loggin{
+#loggin {
     margin: 0 !important;
 }
