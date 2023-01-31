@@ -1,4 +1,13 @@
-if ()
+function savedata(data){
+
+    if (typeof window.localStorage.getItem(objrestaurant)){
+
+    }else{
+        var objrestaurant = {};
+        window.localStorage.setItem(objrestaurant,)
+    }
+}
+
 
 const objrestaurant = {
     Chimichurri: window.localStorage.getItem("Chimichurri"),
