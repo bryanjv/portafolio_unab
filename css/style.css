@@ -109,13 +109,13 @@ nav {
     /* background-color: rgba(235, 162, 68, 0.705); */
     border: 1px solid rgba(0, 0, 0, 0.1);
 
-    .form-signin-heading,
-    .checkbox {
+    .form-signin-heading {
         margin-bottom: 30px;
     }
 
     .checkbox {
         font-weight: normal;
+        
     }
 
     .form-control {
@@ -124,7 +124,7 @@ nav {
         height: auto;
         padding: 10px;
         @include box-sizing(border-box);
-
+        
         &:focus {
             z-index: 2;
         }
@@ -271,4 +271,8 @@ footer {
 
 #loggin {
     margin: 0 !important;
+}
+
+#ingreso-restaurant{
+    margin: 20%;
 }
