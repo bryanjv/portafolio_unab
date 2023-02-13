@@ -18,6 +18,10 @@ class Cliente{
         return this._direccion;
     }
 
+    get nacimiento(){
+        return this._direccion;
+    }
+
     set nombre(nuevoNombre) {
         nuevoNombre = nuevoNombre.trim();
         if (nuevoNombre==''){
@@ -45,6 +49,11 @@ class Cliente{
         this._direccion = nuevaDireccion;
     }
 
+    set nacimiento(nuevoNacimiento){
+        
+        this._nacimiento = nuevoNacimiento;
+    }
+
     obtenerEdad(){
         var hoy = new Date();
         var cumpleanos = new Date(this.nacimiento);
@@ -53,7 +62,6 @@ class Cliente{
         if (m < 0 || (m === 0 && hoy.getDate() < cumpleanos.getDate())) {
             edad--;
         }
-
         return edad;
     }
 }

@@ -1,0 +1,14 @@
+[
+    {
+        "nombre": "Armando Burgueso",
+        "correo": "arman.burgers@burgues.cl",
+        "direccion": "Siddartha 1980, Grand Line, Tierra",
+        "Nacimiento":"1999/11/01"
+    },
+    {
+        "nombre": "Zoyla Soya",
+        "correo": "zoy.soya@parasushi.cl",
+        "direccion": "Av. Peru 193, Nueva Viña, Chile",
+        "Nacimiento":"1999/11/01"
+    }
+]

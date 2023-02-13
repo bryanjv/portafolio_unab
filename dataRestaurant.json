@@ -1,0 +1,36 @@
+[
+    {
+        "nombre": "Mcdolan",
+        "rut": "1",
+        "carta": [
+            {
+                "comida": "Hamburguesa Inorganica",
+                "precio": 1000
+            }
+        ],
+        "valoracion": {
+            "rate": 5,
+            "opiniones": [
+                "La mejor comida que he probado en años"
+            ]
+        },
+        "direccion": "Quillota 980, Viña del Mar, Valparaíso, Chile"
+    },
+    {
+        "nombre": "Kurger Bing",
+        "rut": "2",
+        "carta": [
+            {
+                "comida": "Canburger",
+                "precio": 3500
+            }
+        ],
+        "valoracion": {
+            "rate": 3,
+            "opiniones": [
+                "Estaba muy rica, pero despues me dijo guau guau"
+            ]
+        },
+        "direccion": "Av. Libertad 733, Viña del Mar, Valparaíso, Chile"
+    }
+]

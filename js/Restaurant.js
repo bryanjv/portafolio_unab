@@ -4,7 +4,7 @@ class Restaurant {
         this.nombre = nombre;
         this.rut = rut;
         this.carta = [];
-        this.valoracion = {rate:0, numeroOpiniones:0, opiniones:[]}
+        this.valoracion = {rate:0, opiniones:[]}
         this.direccion = "";
     }
 
@@ -52,11 +52,10 @@ class Restaurant {
     AgregarValoracion(valor, opinion){
         if(this.valoracion.rate == 0){
             this.valoracion.rate = valor;
-            this.valoracion.numeroOpiniones = 1;
             this.valoracion.opiniones.push(opinion);
         }else{
-            this.valoracion.rate = (this.valoracion.rate + valor)/(++this.valoracion.numeroOpiniones)
             this.valor.opiniones.push(opinion);
+            this.valoracion.rate = (this.valoracion.rate + valor)/this.valoracion.opiniones.length;
         }
     }
 }
